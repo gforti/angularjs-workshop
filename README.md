@@ -1,2 +1,2 @@
-angularjs-workshop
+AngularJS Workshop
 ==================
