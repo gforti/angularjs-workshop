@@ -6,15 +6,24 @@ AngularJS is a JavaScript framework created by Google to build dynamic single pa
 Agenda
 ==================
 
-- Modules - a container for the different parts of an app including controllers, services, filters, directives which configures the Injector
-- Controllers - the business logic behind views
-- Scope - context where the model is stored so that controllers, directives and expressions can access it
-- Data-binding - sync data between the model and the view
-- Dependency Injection - Creates and wires objects and functions
-- Filters - formats the value of an expression for display to the user
-- Routing - used for deep-linking URLs to controllers and views (HTML partials).
-- Service - reusable business logic independent of views
-- Directives - extend HTML with custom attributes and elements
+1. Modules 
+	- a container for the different parts of an app including controllers, services, filters, directives which configures the Injector
+2. Controllers 
+	- the business logic behind views
+3. Scope 
+	- context where the model is stored so that controllers, directives and expressions can access it
+4. Data-binding 
+	- sync data between the model and the view
+- [ ] Dependency Injection 
+	- Creates and wires objects and functions
+- Filters 
+	- formats the value of an expression for display to the user
+- Routing 
+	- used for deep-linking URLs to controllers and views (HTML partials).
+- Service 
+	- reusable business logic independent of views
+- Directives 
+	- extend HTML with custom attributes and elements
 
 
 Modules
@@ -139,3 +148,7 @@ Angular comes with a set of these directives built-in, like ngBind, ngModel, and
 
 Reference: 
 https://docs.angularjs.org/guide/directive
+
+
+==================
+https://guides.github.com/features/mastering-markdown/
