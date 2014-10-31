@@ -3,18 +3,28 @@ AngularJS Workshop
 
 AngularJS is a JavaScript framework created by Google to build dynamic single page applications.  We will have a conceptual overview on how to use AngularJS.  We will cover controllers, Directives, filters, routing, services, scope and data model/binding. We will use NetBeans HTML5/PHP (OS independent)  for our IDE and reference Google's official AngularJS documentation. A good knowledge of JavaScript is preferred.  All code samples will be available on github.com.
 
+##What you need
+
+- [ ] NetBeans (OS independent)
+	- HTML5 & PHP bundle (Free, 106 MB)
+	- https://netbeans.org/downloads/
+- [ ] A good understanding of JavaScript
+	- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- [ ] Review the AngularJS website
+	- https://angularjs.org/
+
 Agenda
 ==================
 
 1. Modules 
 	- a container for the different parts of an app including controllers, services, filters, directives which configures the Injector
-2. Controllers 
+- Controllers 
 	- the business logic behind views
-3. Scope 
+- Scope 
 	- context where the model is stored so that controllers, directives and expressions can access it
-4. Data-binding 
+- Data-binding 
 	- sync data between the model and the view
-- [ ] Dependency Injection 
+- Dependency Injection 
 	- Creates and wires objects and functions
 - Filters 
 	- formats the value of an expression for display to the user
