@@ -154,6 +154,16 @@ At a high level, directives are markers on a DOM element (such as an attribute, 
 
 Angular comes with a set of these directives built-in, like ngBind, ngModel, and ngClass. Much like you create controllers and services, you can create your own directives for Angular to use. When Angular bootstraps your application, the HTML compiler traverses the DOM matching directives against the DOM elements.
 
+All of the Angular-provided directives match attribute name, tag name, comments, or class name. The following demonstrates the various ways a directive (myDir in this case) can be referenced from within a template:
+```
+<my-dir></my-dir>
+<span my-dir="exp"></span>
+<!-- directive: my-dir exp -->
+<span class="my-dir: exp;"></span>
+```
+
+**Best Practice:** Prefer using directives via tag name and attributes over comment and class names. Doing so generally makes it easier to determine what directives a given element matches.
+
 **Best Practice:** Unless your template is very small, it's typically better to break it apart into its own HTML file and load it with the templateUrl option.
 
 Reference: 
