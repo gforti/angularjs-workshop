@@ -34,6 +34,7 @@ Agenda
 	- reusable business logic independent of views
 - Directives 
 	- extend HTML with custom attributes and elements
+- Build a simple application with Angular JS
 
 
 Modules
